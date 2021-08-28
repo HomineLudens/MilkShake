@@ -1,0 +1,73 @@
+{ "frames": [
+   {
+    "filename": "bunny5 0.ase",
+    "frame": { "x": 0, "y": 0, "w": 110, "h": 80 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 110, "h": 80 },
+    "sourceSize": { "w": 110, "h": 80 },
+    "duration": 200
+   },
+   {
+    "filename": "bunny5 1.ase",
+    "frame": { "x": 110, "y": 0, "w": 110, "h": 80 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 110, "h": 80 },
+    "sourceSize": { "w": 110, "h": 80 },
+    "duration": 200
+   },
+   {
+    "filename": "bunny5 2.ase",
+    "frame": { "x": 220, "y": 0, "w": 110, "h": 80 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 110, "h": 80 },
+    "sourceSize": { "w": 110, "h": 80 },
+    "duration": 200
+   },
+   {
+    "filename": "bunny5 3.ase",
+    "frame": { "x": 330, "y": 0, "w": 110, "h": 80 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 110, "h": 80 },
+    "sourceSize": { "w": 110, "h": 80 },
+    "duration": 200
+   },
+   {
+    "filename": "bunny5 4.ase",
+    "frame": { "x": 440, "y": 0, "w": 110, "h": 80 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 110, "h": 80 },
+    "sourceSize": { "w": 110, "h": 80 },
+    "duration": 200
+   },
+   {
+    "filename": "bunny5 5.ase",
+    "frame": { "x": 550, "y": 0, "w": 110, "h": 80 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 110, "h": 80 },
+    "sourceSize": { "w": 110, "h": 80 },
+    "duration": 5000
+   }
+ ],
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.1.6-dev",
+  "image": "bunny5.png",
+  "format": "RGBA8888",
+  "size": { "w": 660, "h": 80 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "Idle", "from": 0, "to": 0, "direction": "forward" },
+   { "name": "Good", "from": 1, "to": 4, "direction": "forward" },
+   { "name": "Bad", "from": 5, "to": 5, "direction": "forward" }
+  ],
+  "layers": [
+   { "name": "Layer", "opacity": 255, "blendMode": "normal" }
+  ]
+ }
+}

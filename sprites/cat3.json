@@ -1,0 +1,64 @@
+{ "frames": [
+   {
+    "filename": "cat3 0.ase",
+    "frame": { "x": 0, "y": 0, "w": 110, "h": 80 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 110, "h": 80 },
+    "sourceSize": { "w": 110, "h": 80 },
+    "duration": 200
+   },
+   {
+    "filename": "cat3 1.ase",
+    "frame": { "x": 110, "y": 0, "w": 110, "h": 80 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 110, "h": 80 },
+    "sourceSize": { "w": 110, "h": 80 },
+    "duration": 200
+   },
+   {
+    "filename": "cat3 2.ase",
+    "frame": { "x": 220, "y": 0, "w": 110, "h": 80 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 110, "h": 80 },
+    "sourceSize": { "w": 110, "h": 80 },
+    "duration": 200
+   },
+   {
+    "filename": "cat3 3.ase",
+    "frame": { "x": 330, "y": 0, "w": 110, "h": 80 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 110, "h": 80 },
+    "sourceSize": { "w": 110, "h": 80 },
+    "duration": 200
+   },
+   {
+    "filename": "cat3 4.ase",
+    "frame": { "x": 440, "y": 0, "w": 110, "h": 80 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 110, "h": 80 },
+    "sourceSize": { "w": 110, "h": 80 },
+    "duration": 5000
+   }
+ ],
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.1.6-dev",
+  "image": "cat3.png",
+  "format": "RGBA8888",
+  "size": { "w": 550, "h": 80 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "Idle", "from": 0, "to": 0, "direction": "forward" },
+   { "name": "Good", "from": 1, "to": 3, "direction": "forward" },
+   { "name": "Bad", "from": 4, "to": 4, "direction": "forward" }
+  ],
+  "layers": [
+   { "name": "Layer", "opacity": 255, "blendMode": "normal" }
+  ]
+ }
+}

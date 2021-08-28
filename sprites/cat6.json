@@ -1,0 +1,72 @@
+{ "frames": [
+   {
+    "filename": "cat6 0.ase",
+    "frame": { "x": 0, "y": 0, "w": 110, "h": 80 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 110, "h": 80 },
+    "sourceSize": { "w": 110, "h": 80 },
+    "duration": 400
+   },
+   {
+    "filename": "cat6 1.ase",
+    "frame": { "x": 110, "y": 0, "w": 110, "h": 80 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 110, "h": 80 },
+    "sourceSize": { "w": 110, "h": 80 },
+    "duration": 400
+   },
+   {
+    "filename": "cat6 2.ase",
+    "frame": { "x": 220, "y": 0, "w": 110, "h": 80 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 110, "h": 80 },
+    "sourceSize": { "w": 110, "h": 80 },
+    "duration": 400
+   },
+   {
+    "filename": "cat6 3.ase",
+    "frame": { "x": 330, "y": 0, "w": 110, "h": 80 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 110, "h": 80 },
+    "sourceSize": { "w": 110, "h": 80 },
+    "duration": 400
+   },
+   {
+    "filename": "cat6 4.ase",
+    "frame": { "x": 440, "y": 0, "w": 110, "h": 80 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 110, "h": 80 },
+    "sourceSize": { "w": 110, "h": 80 },
+    "duration": 400
+   },
+   {
+    "filename": "cat6 5.ase",
+    "frame": { "x": 550, "y": 0, "w": 110, "h": 80 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 110, "h": 80 },
+    "sourceSize": { "w": 110, "h": 80 },
+    "duration": 1500
+   }
+ ],
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.1.6-dev",
+  "image": "cat6.png",
+  "format": "RGBA8888",
+  "size": { "w": 660, "h": 80 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "Idle", "from": 0, "to": 0, "direction": "forward" },
+   { "name": "Good", "from": 1, "to": 5, "direction": "forward" }
+  ],
+  "layers": [
+   { "name": "Layer", "opacity": 255, "blendMode": "normal" }
+  ]
+ }
+}

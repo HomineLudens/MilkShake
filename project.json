@@ -1,0 +1,473 @@
+{
+	"lastBuffer": "main.cpp",
+	"PNGFlags": {
+		"ALL": [
+			"transparent=0",
+			"automatic=1",
+			"bpp=8",
+			"cpptype=inline constexpr uint8_t",
+			"paloffset=0",
+			"binary=0",
+			"header=1",
+			"palette=${appPath}/PokittoLib/Pokitto/POKITTO_CORE/PALETTES/miloslav.h"
+		]
+	},
+	"libs": {
+		"Pokitto": [
+			{
+				"recurse": "${appPath}/PokittoLib/Pokitto",
+				"ignore": "POKITTO_SIM|POKITTO_XTERNALS|Documentation|examples?|Physics|(?:.*_SIM.*)|main.cpp"
+			}
+		],
+		"linux": "Desktop",
+		"windows": "Desktop",
+		"darwin": "Desktop",
+		"Desktop": [
+			{
+				"recurse": "${appPath}/PokittoLib/Pokitto",
+				"ignore": "BmpImage.cpp|ChaN|old_32bitSDL|libpff|SDFileSystem|File/ChaN|USBDevice|tinydir/tests|tinydir/samples|JoyHat|mbed-pokitto|POKITTO_HW|POKITTO_XTERNALS|PokittoDisk.cpp|PokittoBattery.cpp|Documentation|examples?|Physics|main.cpp|Pokitto_simsound.cpp"
+			}
+		]
+	},
+	"SFlags": {
+		"Pokitto": [
+			"-I${projectPath}",
+			"-mcpu=cortex-m0plus",
+			"-mthumb"
+		]
+	},
+	"CPPFlags": {
+		"DEBUG": [
+			"-Og",
+			"-g3",
+			"-ggdb"
+		],
+		"RELEASE": [
+			"-Os"
+		],
+		"Pokitto": [
+			"-DPROJ_FPS=60",
+			"-I${projectPath}",
+			"-DPOKITTO",
+			"-fno-rtti",
+			"-Wno-pointer-arith",
+			"-c",
+			"-fno-exceptions",
+			"-fno-builtin",
+			"-ffunction-sections",
+			"-fdata-sections",
+			"-funsigned-char",
+			"-MMD",
+			"-fno-delete-null-pointer-checks",
+			"-fomit-frame-pointer",
+			"-mcpu=cortex-m0plus",
+			"-mthumb",
+			"-Wno-psabi",
+			"-Wno-conversion-null",
+			"-Wno-narrowing",
+			"-Wno-write-strings",
+			"-DTARGET_LPC11U68",
+			"-D__MBED__=1",
+			"-DDEVICE_I2CSLAVE=1",
+			"-DTARGET_LIKE_MBED",
+			"-DTARGET_NXP",
+			"-D__MBED_CMSIS_RTOS_CM",
+			"-DDEVICE_RTC=1",
+			"-DTOOLCHAIN_object",
+			"-D__CMSIS_RTOS",
+			"-DTOOLCHAIN_GCC",
+			"-DTARGET_CORTEX_M",
+			"-DTARGET_M0P",
+			"-DTARGET_UVISOR_UNSUPPORTED",
+			"-DDEVICE_SERIAL=1",
+			"-DDEVICE_INTERRUPTIN=1",
+			"-DTARGET_LPCTarget",
+			"-DTARGET_CORTEX",
+			"-DDEVICE_I2C=1",
+			"-D__CORTEX_M0PLUS",
+			"-DTARGET_FF_ARDUINO",
+			"-DTARGET_RELEASE",
+			"-DMBED_BUILD_TIMESTAMP=1526394586.66",
+			"-DARM_MATH_CM0PLUS",
+			"-DTARGET_LPC11U6X",
+			"-DDEVICE_SLEEP=1",
+			"-DTOOLCHAIN_GCC_ARM",
+			"-DDEVICE_SPI=1",
+			"-DDEVICE_ANALOGIN=1",
+			"-DDEVICE_PWMOUT=1",
+			"-DTARGET_LIKE_CORTEX_M0"
+		],
+		"Desktop": [
+			"-I${projectPath}",
+			"-DPOK_SIM",
+			"-Wall",
+			"-std=gnu++17",
+			"-fsigned-char",
+			"-DPOK_SIM",
+			"-fno-rtti",
+			"-Wno-pointer-arith",
+			"-c",
+			"-fno-builtin",
+			"-ffunction-sections",
+			"-fdata-sections",
+			"-funsigned-char",
+			"-MMD",
+			"-fno-delete-null-pointer-checks"
+		],
+		"ALL": [
+			"-std=c++17"
+		],
+		"linux": {
+			"extend": "Desktop",
+			"flags": [
+				"-DPROJ_LINUX=1",
+				"-D_REENTRANT"
+			]
+		},
+		"windows": "Desktop"
+	},
+	"CFlags": {
+		"DEBUG": [
+			"-Og",
+			"-g3",
+			"-ggdb"
+		],
+		"RELEASE": [
+			"-Os"
+		],
+		"Pokitto": [
+			"-I${projectPath}",
+			"-DPOKITTO",
+			"-Wno-pointer-arith",
+			"-c",
+			"-fno-exceptions",
+			"-fno-builtin",
+			"-ffunction-sections",
+			"-fdata-sections",
+			"-funsigned-char",
+			"-MMD",
+			"-fno-delete-null-pointer-checks",
+			"-fomit-frame-pointer",
+			"-mcpu=cortex-m0plus",
+			"-mthumb",
+			"-Wno-psabi",
+			"-Wwrite-strings",
+			"-DTARGET_LPC11U68",
+			"-D__MBED__=1",
+			"-DDEVICE_I2CSLAVE=1",
+			"-DTARGET_LIKE_MBED",
+			"-DTARGET_NXP",
+			"-D__MBED_CMSIS_RTOS_CM",
+			"-DDEVICE_RTC=1",
+			"-DTOOLCHAIN_object",
+			"-D__CMSIS_RTOS",
+			"-DTOOLCHAIN_GCC",
+			"-DTARGET_CORTEX_M",
+			"-DTARGET_M0P",
+			"-DTARGET_UVISOR_UNSUPPORTED",
+			"-DDEVICE_SERIAL=1",
+			"-DDEVICE_INTERRUPTIN=1",
+			"-DTARGET_LPCTarget",
+			"-DTARGET_CORTEX",
+			"-DDEVICE_I2C=1",
+			"-D__CORTEX_M0PLUS",
+			"-DTARGET_FF_ARDUINO",
+			"-DTARGET_RELEASE",
+			"-DMBED_BUILD_TIMESTAMP=1526394586.66",
+			"-DARM_MATH_CM0PLUS",
+			"-DTARGET_LPC11U6X",
+			"-DDEVICE_SLEEP=1",
+			"-DTOOLCHAIN_GCC_ARM",
+			"-DDEVICE_SPI=1",
+			"-DDEVICE_ANALOGIN=1",
+			"-DDEVICE_PWMOUT=1",
+			"-DTARGET_LIKE_CORTEX_M0"
+		],
+		"Desktop": [
+			"-I${projectPath}",
+			"-DPOK_SIM",
+			"-Wall",
+			"-fsigned-char",
+			"-DPOK_SIM",
+			"-Wno-pointer-arith",
+			"-c",
+			"-fno-builtin",
+			"-ffunction-sections",
+			"-fdata-sections",
+			"-funsigned-char",
+			"-MMD",
+			"-fno-delete-null-pointer-checks"
+		],
+		"ALL": [],
+		"linux": "Desktop",
+		"windows": "Desktop",
+		"darwin": "Desktop"
+	},
+	"GDBFlags": {
+		"Pokitto": [
+			"${projectPath}/${projectName}.elf"
+		]
+	},
+	"emuFlags": {
+		"Pokitto": [
+			"${projectPath}/${projectName}.bin"
+		]
+	},
+	"ELF2BINFlags": {
+		"Pokitto": [
+			"-O",
+			"binary",
+			"${projectPath}/${projectName}.elf",
+			"${projectPath}/${projectName}.bin"
+		]
+	},
+	"LDFlags": {
+		"RELEASE": [
+			"-Os"
+		],
+		"DEBUG": [
+			"-Og",
+			"-g3",
+			"-ggdb"
+		],
+		"Pokitto": [
+			"-Wl,--gc-sections",
+			"-Wl,-n",
+			"--specs=nano.specs",
+			"-mcpu=cortex-m0plus",
+			"-mthumb",
+			"-Wl,--undefined=g_pfnVectors",
+			"-Wl,--undefined=boot",
+			"-T",
+			"${appPath}/PokittoLib/Pokitto/mbed-pokitto/targets/cmsis/TARGET_NXP/TARGET_LPC11U6X/TOOLCHAIN_GCC_ARM/TARGET_LPC11U68/LPC11U68.ld",
+			"--output",
+			"${projectPath}/${projectName}.elf",
+			"$objectFiles",
+			"-Wl,--start-group",
+			"-lstdc++",
+			"-lsupc++",
+			"-lm",
+			"-lc",
+			"-lgcc",
+			"-lnosys",
+			"-Wl,--end-group"
+		],
+		"linux": [
+			"$objectFiles",
+			"-lpthread",
+			"-lSDL2",
+			"--output",
+			"${projectPath}/${projectName}"
+		],
+		"windows": [
+			"-static",
+			"-lmingw32",
+			"-L${appPath}/PokittoLib/Pokitto/POKITTO_SIM/SDL2/lib",
+			"-lSDL2main",
+			"-lSDL2",
+			"-lm",
+			"-ldinput8",
+			"-ldxguid",
+			"-ldxerr8",
+			"-luser32",
+			"-lgdi32",
+			"-lwinmm",
+			"-limm32",
+			"-lole32",
+			"-loleaut32",
+			"-lshell32",
+			"-lversion",
+			"-luuid",
+			"-lsetupapi",
+			"-static-libgcc",
+			"-mwindows",
+			"--output",
+			"${projectPath}/${projectName}.exe",
+			"$objectFiles"
+		]
+	},
+	"target": "Pokitto",
+	"pipelines": {
+		"Pokitto": [
+			"img-to-c",
+			"compile-cpp",
+			"compile-ld",
+			"compile-bin",
+			"make-img"
+		],
+		"Desktop": [
+			"img-to-c",
+			"compile-cpp",
+			"compile-ld"
+		],
+		"linux": "Desktop",
+		"windows": "Desktop"
+	},
+	"meta": {
+		"data": {
+			"sdcard": true
+		},
+		"images": {},
+		"GameState.h": {},
+		"AudioManager.h": {},
+		"EndState.h": {},
+		"main.cpp": {},
+		"IntroState.h": {},
+		"LICENSE": {},
+		"MilkShake.eeprom": {},
+		"music": {
+			"sdcard": true
+		},
+		"MilkShake.bin": {},
+		"pop": {},
+		"MilkShake.elf": {},
+		"project.json": {},
+		"MilkShakeCookie.h": {},
+		"scripts": {},
+		"My_settings.h": {},
+		"sprites": {},
+		"SpritesManager.h": {},
+		"README.md": {},
+		"sprites.h": {},
+		"StateMachine.h": {},
+		"Tools.h": {},
+		"_source assets.zip": {},
+		"data/milkshak": {},
+		"images/chair.png": {},
+		"images/dust.h": {},
+		"images/chair.h": {},
+		"images/milkshake.h": {},
+		"images/dust.png": {},
+		"images/milkshake.png": {},
+		"images/pancake.png": {},
+		"images/pancake.h": {},
+		"images/star.h": {},
+		"images/stage.png": {},
+		"images/stage.h": {},
+		"images/table.h": {},
+		"images/table.png": {},
+		"images/tablePiece - Copia.h": {},
+		"images/tablePiece - Copia.png": {},
+		"images/star.png": {},
+		"images/tablePiece.png": {},
+		"images/tablePiece.h": {},
+		"pop/Big.h": {},
+		"music/milk1.raw": {},
+		"pop/Big.png": {},
+		"pop/medium.h": {},
+		"pop/MilkShake.pop": {},
+		"pop/screenhoots": {},
+		"pop/small.h": {},
+		"pop/medium.png": {},
+		"pop/small.png": {},
+		"": {},
+		"scripts/SpriteConverterMod.js": {},
+		"scripts/Deploy.js": {},
+		"sprites/bunny.h": {},
+		"sprites/bunny1.ase": {},
+		"sprites/bunny1.h": {},
+		"sprites/bunny1.json": {},
+		"sprites/bunny1.png": {
+			"PNGFlags": []
+		},
+		"sprites/bunny2.ase": {},
+		"sprites/bunny2.h": {},
+		"sprites/bunny3.ase": {},
+		"sprites/bunny3.h": {},
+		"sprites/bunny2.json": {},
+		"sprites/bunny2.png": {},
+		"sprites/bunny3.png": {},
+		"sprites/bunny4.json": {},
+		"sprites/bunny3.json": {},
+		"sprites/bunny4.ase": {},
+		"sprites/bunny4.h": {},
+		"sprites/bunny5.ase": {},
+		"sprites/bunny5.json": {},
+		"sprites/bunny4.png": {},
+		"sprites/bunny5.h": {},
+		"sprites/bunny5.png": {},
+		"sprites/bunny6.ase": {},
+		"sprites/bunny6.h": {},
+		"sprites/bunny6.json": {},
+		"sprites/bunny6.png": {},
+		"sprites/cat1.h": {},
+		"sprites/cat1.ase": {},
+		"sprites/cat1.json": {},
+		"sprites/cat1.png": {},
+		"sprites/cat2.ase": {},
+		"sprites/cat2.h": {},
+		"sprites/cat2.json": {},
+		"sprites/cat2.png": {},
+		"sprites/cat3.json": {},
+		"sprites/cat3.h": {},
+		"sprites/cat3.png": {},
+		"sprites/cat3.ase": {},
+		"sprites/cat4.ase": {},
+		"sprites/cat4.h": {},
+		"sprites/cat5.h": {},
+		"sprites/cat5.ase": {},
+		"sprites/cat4.json": {},
+		"sprites/cat4.png": {},
+		"sprites/cat6.h": {},
+		"sprites/cat6.ase": {},
+		"sprites/cat5.json": {},
+		"sprites/cat5.png": {},
+		"sprites/cat6.json": {},
+		"sprites/cat6.png": {},
+		"data/milkshak/bunny2.bin": {},
+		"data/milkshak/bunny4.bin": {},
+		"data/milkshak/bunny3.bin": {},
+		"data/milkshak/bunny1.bin": {},
+		"data/milkshak/bunny5.bin": {},
+		"data/milkshak/bunny6.bin": {},
+		"data/milkshak/cat2.bin": {},
+		"data/milkshak/cat4.bin": {},
+		"data/milkshak/cat1.bin": {},
+		"data/milkshak/cat3.bin": {},
+		"data/milkshak/cat6.bin": {},
+		"data/milkshak/cat5.bin": {},
+		"data/milkshak/EndBunnyScreen.i4": {},
+		"data/milkshak/EndCatScreen.i4": {},
+		"data/milkshak/EndBunnyScreen.i8": {
+			"sdcard": true
+		},
+		"data/milkshak/EndBunnyScreen.png": {
+			"PNGFlags": [
+				"binary=1"
+			]
+		},
+		"data/milkshak/EndCatScreen.i8": {},
+		"data/milkshak/GameOverScreen.png": {
+			"PNGFlags": [
+				"binary=1"
+			]
+		},
+		"data/milkshak/GameOverScreen.i4": {},
+		"data/milkshak/EndCatScreen.png": {
+			"PNGFlags": [
+				"binary=1"
+			]
+		},
+		"data/milkshak/StartScreen.h": {},
+		"data/milkshak/StartScreen.png": {
+			"PNGFlags": [
+				"binary=1"
+			]
+		},
+		"data/milkshak/GameOverScreen.i8": {},
+		"data/milkshak/StartScreen.i4": {},
+		"data/milkshak/StartScreen.i8": {},
+		"pop/screenhoots/MilkShake.bin.3.png": {},
+		"pop/screenhoots/MilkShake.bin.1.png": {},
+		"pop/screenhoots/MilkShake.bin.5.png": {},
+		"pop/screenhoots/MilkShake.bin.6.png": {},
+		"pop/screenhoots/MilkShake.bin.1.h": {},
+		"pop/screenhoots/MilkShake.bin.3.h": {},
+		"pop/screenhoots/MilkShake.bin.5.h": {},
+		"pop/screenhoots/MilkShake.bin.6.h": {}
+	},
+	"ideVersion": 10000,
+	"BUILDFlags": {
+		"Pokitto": {}
+	}
+}
